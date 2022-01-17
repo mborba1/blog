@@ -9,7 +9,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 //connect to mongodb 
-const dbURI = 'mongodb+srv://netninja:Sa~taBarb4ra@nodetuts.hzn80.mongodb.net/nodetuts?retryWrites=true&w=majority'
+const dbURI = 'removed'
 mongoose.connect(dbURI)//listen for requests
    .then((result) => app.listen(3000))
    .catch((err) => console.log(err));

@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+// import DBURI from './config/secret'
 
 const blogRoutes = require('./routes/blogRoutes');
 
@@ -9,7 +10,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 //connect to mongodb 
-const dbURI = 'removed'
+//const dbURI = 
 mongoose.connect(dbURI)//listen for requests
    .then((result) => app.listen(3000))
    .catch((err) => console.log(err));

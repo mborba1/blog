@@ -1,1 +1,0 @@
-export const DBURI = 'mongodb+srv://netninja:Sa~taBarb4ra@nodetuts.hzn80.mongodb.net/nodetuts?retryWrites=true&w=majority'
